@@ -1,0 +1,44 @@
+.fox h1{
+  font-family: Source Sans Pro, 'sans-serif';
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 260px;
+  margin: 78px;
+  background-color: #01527f;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+a{
+  text-decoration: none;
+  color: aqua;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+a:focus {
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .fox h1{
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 158px;
+    padding-left: 119px;
+    padding-bottom: 233px;
+    margin: 50px;
+    margin-left: 40px;
+    width: -211px;
+    background-color: #01527f;
+  }
+  a{
+    text-decoration: none;
+    color: aqua;
+    margin-left: -92px;
+  }
+}
